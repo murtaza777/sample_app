@@ -20,4 +20,9 @@ FactoryGirl.define do
 
   end
 
+  factory :micropost do
+    content "Any content"
+    user
+  end
+
 end
